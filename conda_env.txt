@@ -1,0 +1,8 @@
+mamba create -n intro_dgm \
+-c conda-forge -c pytorch -c nvidia \
+pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 \
+numpy=1.17.2 \
+matplotlib=3.1.1 \
+scikit-learn=0.21.3 \
+pytorch-model-summary=0.1.1 \
+jupyter=1.0.0
